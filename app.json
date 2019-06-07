@@ -13,9 +13,11 @@
   "repository": "https://github.com/heroku/heroku-kong.git",
   "success_url": "https://github.com/heroku/heroku-kong/blob/master/README.md#user-content-usage",
   "stack": "heroku-18",
-  "buildpacks": [{
-    "url": "https://github.com/heroku/heroku-buildpack-kong.git"
-  }],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-kong.git#kong-0.14.0"
+    }
+  ],
   "addons": [
     "heroku-postgresql"
   ],
@@ -27,7 +29,9 @@
   },
   "environments": {
     "test": {
-      "addons": ["heroku-postgresql:in-dyno"]
+      "addons": [
+        "heroku-postgresql:in-dyno"
+      ]
     }
   }
 }
