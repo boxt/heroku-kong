@@ -4,7 +4,7 @@
   ],
   "buildpacks": [
     {
-      "url": "https://github.com/heroku/heroku-buildpack-kong.git#kong-0.11.1"
+      "url": "https://github.com/heroku/heroku-buildpack-kong.git#v4.1.0"
     }
   ],
   "description": "The open-source management layer for APIs, delivering high performance and reliability.",
