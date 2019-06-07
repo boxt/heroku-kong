@@ -15,7 +15,7 @@
   "stack": "heroku-18",
   "buildpacks": [
     {
-      "url": "https://github.com/heroku/heroku-buildpack-kong.git#kong-0.14.0"
+      "url": "https://github.com/heroku/heroku-buildpack-kong.git"
     }
   ],
   "addons": [
